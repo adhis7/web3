@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Data Visualization</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <a class="navbar-brand" href="#">Data Visualization</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Inspiration</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<br>
+
+
+ 
+
+<div class="d-flex flex-row justify-content-between my-flex-container">
+    <div class="p-2 my-flex-item">1</div>
+    <div class="p-2 my-flex-item">2</div>
+    <div class="p-2 my-flex-item">3</div>
+</div>
+
+<div class="d-flex bd-highlight">
+    <div class="p-2 flex-fill bd-highlight" style="background-color: black;">Flex item with a lot of content</div>
+    <div class="p-2 flex-fill bd-highlight" style="background-color: gray;">Flex item</div>
+    <div class="p-2 flex-fill bd-highlight" style="background-color: olivedrab;">Flex item</div>
+  </div>
+
+<div class="container-fluid"  style="background-color: orangered;">
+    
+    <div class="flexible centered" style="background-color: blue;" >
+        <div class="redbox">I should be centered in the parent!</div>
+    </div>
+    <br/>
+
+    <div class="flexible spacebetween"style="background-color: red;">
+        <div class="redbox">I should be on the left</div>
+        <div class="redbox">I should be on the right</div>
+    </div>
+    <br/>
+
+    <div class="flexible col-sm" style="background-color: green;">
+        <div class="redbox baseline">I should be on the left</div>
+        <div class="redbox push-right">I should be on the right</div>
+    </div>
+    <br/>
+
+    <div class="flexible col-sm"style="background-color: black;">
+        <div class="redbox baseline stretch">I should be on the left</div>
+        <div class="redbox baseline stretch">I should be on the right</div>
+    </div>
+    <br/>
+
+
+
+</div>
+
+</body>
+</html>
+
+
